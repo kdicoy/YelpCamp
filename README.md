@@ -10,8 +10,8 @@ Technology used: MongoDB, Node.js, Express
   <li>User authentication using passport.js</li>
   <li>Error handling when accessing illegal routes</li>
   <li>RESTFUL routing</li>
- <ul>
+</ul>
 
 <hr>
 
-Test out the website<a href="https://boiling-waters-12746.herokuapp.com/"> HERE</a>
+<p>Test out the website<a href="https://boiling-waters-12746.herokuapp.com/"> HERE</a></p>
