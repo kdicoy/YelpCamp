@@ -12,4 +12,6 @@ Technology used: MongoDB, Node.js, Express
   <li>RESTFUL routing</li>
  <ul>
 
+<hr>
+
 Test out the website<a href="https://boiling-waters-12746.herokuapp.com/"> HERE</a>
