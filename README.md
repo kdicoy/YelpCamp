@@ -1,5 +1,5 @@
 # YelpCamp
-A view and comment on available campgrounds around the world!
+View and comment on available campgrounds around the world!
 
 
 Technology used: MongoDB, Node.js, Express
