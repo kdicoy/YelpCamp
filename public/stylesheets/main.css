@@ -11,3 +11,17 @@
 #delete_form {
     display: inline;
 }
+
+#login-page {
+    margin-top: 30px;
+    width: 50%;
+    border: solid 2px #A5A4A2 ;
+    box-shadow: 2px 3px 3px #888888;
+    
+}
+
+#login-page-box {
+    width: 80%; 
+    margin: 40px auto;
+    
+}
