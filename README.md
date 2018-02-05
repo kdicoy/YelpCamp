@@ -12,7 +12,7 @@ Technology used: MongoDB, Node.js, Express
   <li>RESTFUL routing</li>
 </ul>
 
-<h3>Features in progress:
+<h3>Features in progress: </h3>
 <ul>
   <li>Additional info about camps</li>
   <li>Google map for the specific camp</li>
