@@ -22,8 +22,12 @@ app.use(express.static(__dirname + "/public"));
 
 //seedDB();
 
-// mongoose.connect("mongodb://localhost/yelp_camp_v2");
-mongoose.connect("mongodb://admin:pogi1234@ds125048.mlab.com:25048/yelpcamp");
+
+
+mongoose.connect(process.env.DATABASEURL);
+// mongoose.connect("mongodb://admin:pogi1234@ds125048.mlab.com:25048/yelpcamp");
+
+process.env.databaseURL
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
