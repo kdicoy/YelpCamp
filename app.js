@@ -20,12 +20,13 @@ var seedDB = require("./seeds.js");
 
 app.use(express.static(__dirname + "/public"));
 
-//seedDB();
+//seedDB(); // Seed the database data for testing
 
+// CONNECT TO THE DATABASE
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v2";
 
+mongoose.connect(url);
 
-mongoose.connect(process.env.DATABASEURL);
-// mongoose.connect("mongodb://admin:pogi1234@ds125048.mlab.com:25048/yelpcamp");
 
 process.env.databaseURL
 
