@@ -32,8 +32,8 @@
                  <% campground.comments.forEach(function(comment) { %>
                     <div class="row">
                         <div class="col-md-12">
-                            <%= comment.author.username %>
-                            <span class="pull-right">10 days ago</span>
+                            <strong><%= comment.author.username%></strong>
+                            <span class="pull-right"></span>
                             <p><%=comment.text%></p>
                             <% if(currentUser && comment.author.id.equals(currentUser._id)) { %>
                                 <a class="btn btn-xs btn-warning" 
